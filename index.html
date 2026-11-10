@@ -36,9 +36,9 @@ const drugProfiles={"ケフレックス":{"sub":"セファレキシン｜第1世
 drugProfiles["ケフレックス"].nonpurulent="【ケフレックス】β溶血性レンサ球菌＋MSSAをカバー。非膿性蜂窩織炎の代表的な経口候補。\n・アモキシシリン：レンサ球菌は狙えるが、ペニシリナーゼ産生MSSAへのカバーは不十分。\n・ダラシン（クリンダマイシン）：レンサ球菌・感受性MSSAに活性。ただし耐性とC. difficile感染症のリスクから、主にβラクタム系が使いにくい場合の代替候補。\n・バクタ（ST合剤）：MRSAに活性を示す菌株はあるが、β溶血性レンサ球菌への臨床的信頼性が不十分。典型的な非膿性蜂窩織炎では単剤を優先しない。";
 drugProfiles["ケフレックス"].purulent="典型的な非膿性蜂窩織炎ではβ溶血性レンサ球菌が中心。一方、膿瘍・せつ・ようなどの膿性皮膚軟部組織感染症では黄色ブドウ球菌（MSSA／MRSA）が重要。『膿性蜂窩織炎』と一括せず、膿瘍の有無・排膿の必要性を評価する。ケフレックスは感受性MSSAなら選択肢になるが、MRSAには期待できない。膿瘍では切開排膿が治療の基本で、抗菌薬追加は全身症状・重症度・宿主因子などで判断する。";
 drugProfiles["ケフレックス"].stTrial="非膿性・非膿瘍性の単純性蜂窩織炎では、β溶血性レンサ球菌が主な想定起炎菌であり、MRSAカバーを目的にST合剤（バクタ）をルーチン追加する根拠は乏しい。Moranらの2017年RCT（500人）ではセファレキシン単剤とST合剤併用の治癒率に有意差を認めず、プロトコル遵守集団では単剤85.5%、併用83.5%（P=0.50）。ただし別の解析集団では臨床的に重要な利益の可能性を完全には除外できず、『併用は絶対に無意味』とは断定しない。膿瘍・排膿・MRSAリスクがある病態にはこの結果をそのまま当てはめない。";
-drugProfiles["ケフレックス"].sources.push(["Moran et al. JAMA 2017／セファレキシン±ST合剤 RCT","https://pubmed.ncbi.nlm.nih.gov/28535235/"]);
 drugProfiles["ケフレックス"].comparison="ケフラール（セファクロル）は第2世代セフェムでインフルエンザ菌などへの活性が特徴だが、非膿性蜂窩織炎で広いスペクトルが必要とは限らない。IDSA 2014は典型的蜂窩織炎の経口候補としてセファレキシンを具体的に列挙。セファクロルが列挙されない理由はガイドラインに明記されておらず、薬効がない・劣ると断定できない。国内承認適応と米国ガイドラインの採用薬剤は区別する。いずれもMRSAには期待しない。";
 drugProfiles["ケフレックス"].sources=[["IDSA SSTI 2014／蜂窩織炎・膿瘍","https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"],["厚労省 薬剤情報（L-ケフレックス）","https://shinryohoshu.mhlw.go.jp/shinryohoshu/yakuzaiMenu/doYakuzaiInfoKobetsu%266132002E2030"],["厚労省 薬剤情報（L-ケフラール）","https://shinryohoshu.mhlw.go.jp/shinryohoshu/yakuzaiMenu/doYakuzaiInfoKobetsu%266132005E1020"]];
+drugProfiles["ケフレックス"].sources.push(["Moran et al. JAMA 2017／セファレキシン±ST合剤 RCT","https://pubmed.ncbi.nlm.nih.gov/28535235/"]);
 drugProfiles["バクタ"]={
 sub:"スルファメトキサゾール／トリメトプリム（SMX/TMP）｜ST合剤",
 summary:"葉酸合成経路の連続2段階を阻害。感受性のある尿路病原菌やニューモシスチス肺炎に用いる。海外では市中MRSAによる膿性皮膚感染症の経口候補だが、日本のバクタ経口剤に皮膚感染症・MRSAの承認適応はない。",

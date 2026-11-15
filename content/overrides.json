@@ -352,6 +352,39 @@
           "https://www.kyorin-pharm.co.jp/prodinfo/medicine/pdf/i_lasvic.pdf"
         ]
       ]
+    },
+    "ミノサイクリン": {
+      "use": "【マクロライド耐性マイコプラズマ肺炎】日本小児科学会2025ではマクロライドを第一選択とし、2〜3日以内の解熱で効果を評価。無効例または耐性が明らかで、抗菌薬継続が必要な場合にテトラサイクリン系薬またはトスフロキサシンを考慮する。8歳未満のテトラサイクリン系は、他剤が使用できないか無効の場合に限る。ミノサイクリンはドキシサイクリンの小児歯牙安全性研究をそのまま適用できない。\n【尋常性ざ瘡（炎症性皮疹）】日本皮膚科学会2023でミノサイクリン内服は推奨度A＊。ドキシサイクリンはA。39件のRCTに基づくシステマティックレビューが根拠。過酸化ベンゾイル・アダパレン等と併用し、内服抗菌薬単独療法を避ける。6〜8週で再評価、原則3か月程度までを目安とし長期漫然投与を避ける。\n【MRSAを疑う膿性皮膚軟部組織感染症】国内MRSA感染症診療ガイドライン2024では、経口抗菌薬が必要な表在性MRSA皮膚軟部組織感染症の選択肢としてミノサイクリンが明記される（小児の記載ではB-II）。膿瘍は切開排膿が基本で、抗菌薬の追加は全身症状・重症度等で判断する。培養・感受性を確認する。\n【リケッチア感染症（つつが虫病など）】添付文書にリケッチア属およびつつが虫病の記載がある。ただし、疾患ごとの第一選択・投与期間は別途ガイドラインで確認する。\n【非膿性蜂窩織炎】主にレンサ球菌を想定する病態であり、ミノサイクリン単剤を標準治療として選ばない。\n【Mycoplasma genitalium（難治性・再発性非淋菌性尿道炎）】ミノサイクリンはM. genitalium感染症の代替治療候補。WHO 2023はアジスロマイシン／モキシフロキサシンが使用できない場合などにミノサイクリン100mg 1日2回14日間を条件付きで提案（エビデンスの確実性は低い）。国内で紹介されるミノサイクリン→シタフロキサシンの逐次療法はCDC標準レジメンとは異なる。適応外使用・耐性・治癒判定を確認。",
+      "sources": [
+        [
+          "日本小児科学会 2025 小児マイコプラズマ肺炎",
+          "https://www.jpeds.or.jp/uploads/files/20250422_maikopurazuma.pdf"
+        ],
+        [
+          "日本皮膚科学会 尋常性痤瘡・酒皶治療ガイドライン2023",
+          "https://www.dermatol.or.jp/uploads/uploads/files/guideline/zasou2023_230820.pdf"
+        ],
+        [
+          "MRSA感染症の診療ガイドライン2024",
+          "https://www.chemotherapy.or.jp/uploads/files/guideline/mrsa_guideline_2024.pdf"
+        ],
+        [
+          "IDSA 2014 SSTI",
+          "https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"
+        ],
+        [
+          "PMDA ミノマイシン錠50mg",
+          "https://www.pmda.go.jp/PmdaSearch/rdDetail/iyaku/6152005F1052_3?user=1"
+        ],
+        [
+          "WHO M. genitalium 治療推奨（2023）",
+          "https://www.ncbi.nlm.nih.gov/books/NBK605755/"
+        ],
+        [
+          "CDC Mycoplasma genitalium STI Treatment Guidelines",
+          "https://www.cdc.gov/std/treatment-guidelines/mycoplasmagenitalium.htm"
+        ]
+      ]
     }
   }
 }

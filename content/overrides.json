@@ -684,21 +684,6 @@
           "https://www.jrs.or.jp/publication/file/adult_pneumonia_2024v5.pdf#page=35"
         ]
       ]
-    },
-    "サワシリン": {
-      "clinicalVerdict": [
-        "",
-        ""
-      ],
-      "sub": "アモキシシリン",
-      "summary": "肺炎球菌・溶連菌などが主な検討対象。必要以上に広域化しない選択肢。",
-      "spectrum": "**レンサ球菌**や**肺炎球菌**などのグラム陽性球菌、、一部の**腸球菌**(E. faecalis)、**一部の大腸菌**など。\n**A群溶血性レンサ球菌（GAS）**：**溶連菌**によく効く。\n\n大腸菌は耐性が多く[[blue:**膀胱炎では優先しない**]]。セファレキシンがメイン。\nただし、セファレキシンは腸球菌（E. faecalis） に効かないのに対して**AMPCは効く**ため、検査で感受性のある腸球菌性膀胱炎であれば適している。\n膀胱炎の起因菌は**E.coliが63%、腸球菌(E. faecalis)が13%**([参照](https://kodairaurology.jp/繰り返す膀胱炎（女性編）))\nβラクタマーゼ産生菌には弱い。",
-      "use": "溶連菌性咽頭炎、急性副鼻腔炎、急性中耳炎、肺炎(市中肺炎、誤嚥性肺炎)、歯性感染症、腸球菌(E. faecalis)性膀胱炎\n\n[[yellow:**[[size:18:【溶連菌性咽頭炎】]]**]]\n[[red:**アモキシシリン**]]の10日間投与が第１選択で、第2選択は**セファレキシン**10日間。\n[[blue:**重度のペニシリンアレルギー**]]があれば[[red:**クリンダマイシン**]]10日間、**クラリスロマイシン**10日間、**アジスロマイシン**3日間。[[blue:**マクロライド耐性**]]も多いので**クリンダマイシン優先**。\n**第三世代セフェム**は2017年のガイドラインまでは推奨されていたが、**[[blue:無駄に広域]]**だし**ピボキシル基**で**[[blue:低カルニチン血症リスク]]**あり使わない。\n(小児呼吸器感染症診療ガイドライン)\nペニシリンアレルギーがある場合には、マクロライド系薬の10日間投与が推奨されているが、耐性菌に注意が必要\n\n[[yellow:**[[size:18:【急性中耳炎】]]**]]\n今の日本の感受性に基づき、[[red:**CVA/AMPCとともに第1選択**]]として推奨。AMPCおよびCVA/AMPCによる初期治療失敗例やインフルエンザ菌を考慮すると**セフジトレン**、**セフカペン**(**セフジトレン優先**)、**オラペネム**、**トスフロキサシン**も使う。\n(参照：[小児急性中耳炎ガイドライン2024 p.55](https://www.otology.gr.jp/common/pdf/guideline_otitis2024.pdf?utm_source=chatgpt.com#page=65))\n([治療アルゴリズム](https://www.otology.gr.jp/common/pdf/guideline_otitis2024.pdf?utm_source=chatgpt.com#page=95))\n\n[[yellow:**[[size:18:【肺炎】]]**]]\n**市中肺炎**では細菌性肺炎が疑われる場合に**ペニシリン系**または**セフジトレン高用量**が推奨。\n([ガイドライン p.35](https://www.jrs.or.jp/publication/file/adult_pneumonia_2024v5.pdf?utm_source=chatgpt.com#page=60))\n**誤嚥性肺炎**ではCVA/AMPCを主な適応として記載\n([京都市立病院協会マニュアルp.17](https://www.khosp.or.jp/system/wp-content/themes/khosp/assets/img/document/pdf/koukinyaku-manual.pdf#page=24))\nただし、[[blue:**誤嚥性肺炎で嫌気性菌をカバーする抗菌薬の推奨は弱い**]]。ただ益と害のバランスは良い\n([成人肺炎診療ガイドライン2024 p.164](https://www.jrs.or.jp/publication/file/adult_pneumonia_2024v5.pdf?utm_source=chatgpt.com#page=189))\n",
-      "avoid": "βラクタマーゼ産生インフルエンザ菌、モラクセラなどの想定",
-      "caution": "時間依存性（fT>MIC）。腎機能、過敏症、EBウイルス感染時の発疹に注意。",
-      "pediatric": "",
-      "pregnancy": "",
-      "lactation": ""
     }
   }
 }

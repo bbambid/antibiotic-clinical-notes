@@ -85,7 +85,16 @@
           "同ガイドライン p.35 図4（市中肺炎の初期治療）",
           "https://www.jrs.or.jp/publication/file/adult_pneumonia_2024v5.pdf#page=35"
         ]
-      ]
+      ],
+      "point_0_name": "細菌性肺炎",
+      "point_0_description": "重症度・検出菌・薬剤感受性を評価してβラクタム系などを選択。インフルエンザ菌BLNARを考慮する外来症例ではセフジトレン高用量が図4の候補。\n\nまた**ガイドラインには無い**が、[[blue:**βラクタム系が使えない軽症のインフルエンザ菌性肺炎**]]では、**アジスロマイシン**または**ドキシサイクリン（ビブラマイシン）**を経口投与する。中等症以上では**セフトリアキソン**を静脈注射する。[[blue:**中等症以上のβラクタム系が使えない**]]ときは、**ST合剤（バクタ）**を経口投与する\n([プライマリケアのサイト](https://www.jpca-infection.com/news-detail.php?nid=82))",
+      "point_0_type": "guideline",
+      "point_1_name": "肺炎マイコプラズマ",
+      "point_1_description": "一般病棟入院患者で疑う場合、ミノサイクリンまたはアジスロマイシンの点滴静注を考慮（p.36）。",
+      "point_1_type": "guideline",
+      "point_2_name": "レジオネラ属",
+      "point_2_description": "一般病棟入院患者で疑う場合、レボフロキサシン、ラスクフロキサシン、パズフロキサシンの点滴静注を考慮（p.36）。",
+      "point_2_type": "guideline"
     }
   },
   "drugs": {

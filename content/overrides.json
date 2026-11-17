@@ -126,7 +126,21 @@
       ],
       "pediatric": "",
       "pregnancy": "",
-      "lactation": ""
+      "lactation": "",
+      "sources": [
+        [
+          "IDSA SSTI 2014／蜂窩織炎・膿瘍",
+          "https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"
+        ],
+        [
+          "Moran et al. JAMA 2017／セファレキシン±ST合剤 RCT",
+          "https://pubmed.ncbi.nlm.nih.gov/28535235/"
+        ],
+        [
+          "JAID/JSC 感染症治療ガイドライン 2015 ―尿路感染症・男性性器感染症―",
+          "https://www.kansensho.or.jp/uploads/files/guidelines/guideline_JAID-JSC_2015_urinary-tract.pdf"
+        ]
+      ]
     },
     "セフゾン": {
       "sub": "セフジニル｜経口第3世代セフェム",

@@ -1,7 +1,7 @@
 {
   "name": "抗菌薬の使い分けノート",
   "short_name": "抗菌薬ノート",
-  "start_url": "./index.html",
+  "start_url": "./index.html?app=v117",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f4f7f9",

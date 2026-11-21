@@ -48,6 +48,18 @@
       "source": "産婦人科診療ガイドライン",
       "page": "",
       "url": ""
+    },
+    {
+      "id": "mwqkzszq-60iiy1",
+      "path": "assets/clinical-images/mwqkzszq-60iiy1.jpg",
+      "target": "drug:フロモックス",
+      "anchor": "",
+      "mode": "inline",
+      "size": "full",
+      "caption": "JAID/JSC 感染症治療ガイドライン 2015より",
+      "source": "JAID/JSC 感染症治療ガイドライン 2015―尿路感染症・男性性器感染症―",
+      "page": "5",
+      "url": "https://www.kansensho.or.jp/uploads/files/guidelines/guideline_JAID-JSC_2015_urinary-tract.pdf"
     }
   ]
 }

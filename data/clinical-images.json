@@ -204,6 +204,18 @@
       "source": "JAID/JSC 感染症治療ガイドライン2015",
       "page": "5",
       "url": "https://www.kansensho.or.jp/uploads/files/guidelines/guideline_JAID-JSC_2015_urinary-tract.pdf"
+    },
+    {
+      "id": "mws05j5e-v46jhr",
+      "path": "assets/clinical-images/mws05j5e-v46jhr.jpg",
+      "target": "drug:セフゾン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "セフジニルの特徴",
+      "source": "HOKUTO 概要欄",
+      "page": "",
+      "url": ""
     }
   ]
 }

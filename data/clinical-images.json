@@ -192,6 +192,18 @@
       "source": "JAID/JSC 感染症治療ガイドライン2015",
       "page": "6",
       "url": "https://www.kansensho.or.jp/uploads/files/guidelines/guideline_JAID-JSC_2015_urinary-tract.pdf"
+    },
+    {
+      "id": "mwrvk4ys-d9nk0p",
+      "path": "assets/clinical-images/mwrvk4ys-d9nk0p.jpg",
+      "target": "drug:セフゾン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "JAID/JSC 感染症治療ガイドライン 閉経前と後",
+      "source": "JAID/JSC 感染症治療ガイドライン 2015",
+      "page": "5",
+      "url": "https://www.kansensho.or.jp/uploads/files/guidelines/guideline_JAID-JSC_2015_urinary-tract.pdf"
     }
   ]
 }

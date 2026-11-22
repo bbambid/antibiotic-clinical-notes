@@ -96,6 +96,18 @@
       "source": "抗微生物薬適正使用の手引き",
       "page": "85-87",
       "url": "https://www.mhlw.go.jp/content/10900000/001630903.pdf?utm_source=chatgpt.com#page=59"
+    },
+    {
+      "id": "mwr4qyz0-r4455z",
+      "path": "assets/clinical-images/mwr4qyz0-r4455z.jpg",
+      "target": "disease:otitis",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "ガイドラインより",
+      "source": "小児急性中耳炎ガイドライン",
+      "page": "80-81",
+      "url": "https://www.otology.gr.jp/common/pdf/guideline_otitis2024.pdf"
     }
   ]
 }

@@ -156,6 +156,18 @@
       "source": "ねころんで読める抗菌薬",
       "page": "68",
       "url": "111"
+    },
+    {
+      "id": "mwrv3y8k-9xuldz",
+      "path": "assets/clinical-images/mwrv3y8k-9xuldz.jpg",
+      "target": "drug:セフゾン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "婦人科ガイドラインより",
+      "source": "診療ガイドライン婦⼈科外来編 2023 年",
+      "page": "10",
+      "url": "https://www.jaog.or.jp/wp/wp-content/uploads/2022/08/20220816.pdf#page=8)"
     }
   ]
 }

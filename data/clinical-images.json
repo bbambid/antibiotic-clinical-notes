@@ -180,6 +180,18 @@
       "source": "JAID/JSC 感染症治療ガイドライン 2015",
       "page": "5",
       "url": "https://www.kansensho.or.jp/uploads/files/guidelines/guideline_JAID-JSC_2015_urinary-tract.pdf"
+    },
+    {
+      "id": "mwrvdaxo-k6jtql",
+      "path": "assets/clinical-images/mwrvdaxo-k6jtql.jpg",
+      "target": "drug:セフゾン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "JAID/JSC 感染症治療ガイドライン 妊婦",
+      "source": "JAID/JSC 感染症治療ガイドライン2015",
+      "page": "6",
+      "url": "https://www.kansensho.or.jp/uploads/files/guidelines/guideline_JAID-JSC_2015_urinary-tract.pdf"
     }
   ]
 }

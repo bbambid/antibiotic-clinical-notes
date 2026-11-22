@@ -113,6 +113,30 @@
       "point_2_name": "レジオネラ属",
       "point_2_description": "一般病棟入院患者で疑う場合、レボフロキサシン、ラスクフロキサシン、パズフロキサシンの点滴静注を考慮（p.36）。",
       "point_2_type": "guideline"
+    },
+    "otitis": {
+      "sources": [
+        [
+          "小児急性中耳炎診療ガイドライン2024",
+          "https://www.otology.gr.jp/common/pdf/guideline_otitis2024.pdf"
+        ],
+        [
+          "抗微生物薬適正使用の手引き",
+          "https://www.mhlw.go.jp/content/10900000/001630903.pdf?utm_source=chatgpt.com#page=59"
+        ]
+      ],
+      "title": "小児急性中耳炎",
+      "scope": "主に小児の急性中耳炎。年齢、耳痛・発熱、鼓膜所見、重症度、反復・遷延、直近の抗菌薬歴で評価する。成人中耳炎や滲出性中耳炎とは区別する。",
+      "pathogens": "[[size:18:**最もターゲットとして意識するべきは[[red:肺炎球菌]]。**]]その他**[[red:インフルエンザ菌]]**（[[red:**BLNAR**]]を含む）、モラクセラ・カタラーリス。\nウイルス感染も考慮",
+      "point_0_name": "アモキシシリン（AMPC）",
+      "point_0_description": "抗菌薬治療が必要な急性中耳炎での基本的な第一選択。年齢・重症度・直近の抗菌薬使用歴に応じて用量を検討。",
+      "point_0_type": "guideline",
+      "point_1_name": "オゼックス（TFLX）",
+      "point_1_description": "小児中耳炎に国内承認適応のある経口ニューキノロン。第一選択ではなく、他の経口抗菌薬で効果が期待できない場合などに検討。BLNAR・PRSPでも感受性を無条件に保証しない。結晶尿・腎障害に注意。",
+      "point_1_type": "guideline",
+      "point_2_name": "メイアクト（CDTR-PI）など",
+      "point_2_description": "インフルエンザ菌を考慮する際の選択肢。ただし個々の耐性と地域のガイドラインに基づき判断し、ピボキシル基による低カルニチン血症にも注意。",
+      "point_2_type": "interpretation"
     }
   },
   "drugs": {

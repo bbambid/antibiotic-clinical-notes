@@ -200,7 +200,7 @@
       "point_4_description": "MSSAを想定し内服が必要な場合の狭域候補。",
       "point_4_type": "interpretation",
       "point_5_name": "ミノサイクリン",
-      "point_5_description": "MRSA疑い・確認時の経口候補。感受性と安全性を確認し、膿瘍の排膿を優先する。",
+      "point_5_description": "MRSA疑い・確認時の経口候補。",
       "point_5_type": "interpretation",
       "point_6_name": "ST合剤／ドキシサイクリン／クリンダマイシン",
       "point_6_description": "MRSAを想定する場合の代替候補。耐性・相互作用・レンサ球菌カバーに注意。",

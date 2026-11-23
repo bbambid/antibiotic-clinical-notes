@@ -179,6 +179,38 @@
           "必要に応じ鼓膜切開・培養など耳鼻科的介入を検討する。"
         ]
       ]
+    },
+    "folliculitis": {
+      "title": "毛包炎・せつ・よう（毛嚢炎・癤・癰）",
+      "scope": "・毛包炎（浅い毛包の炎症）：毛穴の奥に細菌が入り込み、炎症を起こす\n・ニキビ(ざそう)：皮脂や角質で毛穴が詰まり、アクネ菌が増える\n・せつ（ニキビが深くなった、毛包から深部へ広がる膿瘍）ニキビかと思いきや触ると激痛、ずっと治らない\n・よう（複数の毛包感染が融合した深い病変）を区別する。",
+      "pathogens": "主な起炎菌は黄色ブドウ球菌（MSSA、状況によりMRSA）。毛包炎では緑膿菌や非細菌性病態も鑑別する。",
+      "point_0_name": "外用抗菌薬",
+      "point_0_description": "限局した細菌性毛包炎で必要性を判断。ゼビアックスの適応と耐性化リスクを確認。",
+      "point_0_type": "interpretation",
+      "point_1_name": "セファレキシン",
+      "point_1_description": "全身治療が必要でMSSAが主な標的の場合の狭域候補。軽症例へのルーチン内服は避ける。",
+      "point_1_type": "interpretation",
+      "point_2_name": "ミノサイクリン／ドキシサイクリン",
+      "point_2_description": "MRSAを疑う場合などに感受性・適応・安全性を確認。軽症毛包炎の第一選択として一律には扱わない。",
+      "point_2_type": "caution",
+      "point_3_name": "切開排膿",
+      "point_3_description": "大きなせつ・ようでは第一に検討する治療。抗菌薬単独で置き換えない。",
+      "point_3_type": "guideline",
+      "point_4_name": "セファレキシン",
+      "point_4_description": "MSSAを想定し内服が必要な場合の狭域候補。",
+      "point_4_type": "interpretation",
+      "point_5_name": "ミノサイクリン",
+      "point_5_description": "MRSA疑い・確認時の経口候補。感受性と安全性を確認し、膿瘍の排膿を優先する。",
+      "point_5_type": "interpretation",
+      "point_6_name": "ST合剤／ドキシサイクリン／クリンダマイシン",
+      "point_6_description": "MRSAを想定する場合の代替候補。耐性・相互作用・レンサ球菌カバーに注意。",
+      "point_6_type": "interpretation",
+      "point_7_name": "セフジニル／ファロペネム",
+      "point_7_description": "皮膚感染症への使用実績はあるが、MSSA主体の単純例で広域薬を優先する根拠とはならない。",
+      "point_7_type": "caution",
+      "point_8_name": "ゼビアックス外用",
+      "point_8_description": "浅い細菌性毛包炎では検討できるが、深いせつ・ようの膿瘍を外用単独で治療するものではない。",
+      "point_8_type": "caution"
     }
   },
   "drugs": {

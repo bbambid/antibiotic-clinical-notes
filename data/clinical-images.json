@@ -372,6 +372,18 @@
       "source": "小児のマイコプラズマ肺炎の診断と治療に関する考え方",
       "page": "4",
       "url": "https://www.jpeds.or.jp/uploads/files/20250422_maikopurazuma.pdf"
+    },
+    {
+      "id": "mwuhcupw-mer2b9",
+      "path": "assets/clinical-images/mwuhcupw-mer2b9.jpg",
+      "target": "drug:ダラシン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "ペニシリンアレルギーの溶連菌に選択肢",
+      "source": "抗微生物薬剤適正使用の手引き第1四版",
+      "page": "67",
+      "url": "https://www.mhlw.go.jp/content/10900000/001630903.pdf#page=67"
     }
   ]
 }

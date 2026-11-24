@@ -216,6 +216,18 @@
       "source": "HOKUTO 概要欄",
       "page": "",
       "url": ""
+    },
+    {
+      "id": "mwu3uk3a-gvpysy",
+      "path": "assets/clinical-images/mwu3uk3a-gvpysy.jpg",
+      "target": "drug:メイアクト",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "軽症・中等症・重症の中耳炎でセフジトレンは選択肢",
+      "source": "小児急性中耳炎ガイドライン2024",
+      "page": "85-86",
+      "url": "https://www.otology.gr.jp/common/pdf/guideline_otitis2024.pdf"
     }
   ]
 }

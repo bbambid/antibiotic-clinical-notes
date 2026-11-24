@@ -35,7 +35,6 @@ const drugProfiles={};
 
 
 
-drugProfiles["ケフレックス"].sources.push(["Moran et al. JAMA 2017／セファレキシン±ST合剤 RCT","https://pubmed.ncbi.nlm.nih.gov/28535235/"]);
 
 
 
@@ -45,25 +44,26 @@ drugProfiles["ケフレックス"].sources.push(["Moran et al. JAMA 2017／セ�
 
 
 
-drugProfiles["オラセフ"].sources.push(["2019 ATS/IDSA 成人市中肺炎ガイドライン","https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/"],["2012 IDSA 急性細菌性鼻副鼻腔炎ガイドライン","https://www.idsociety.org/practice-guideline/rhinosinusitis/"]);
-
-
-
-
-drugProfiles["セファゾリン（注射）"].sources.push(["IDSA 2014 皮膚軟部組織感染症ガイドライン","https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"]);
-
-drugProfiles["セフトリアキソン（注射）"].sources.push(["IDSA 2025 複雑性尿路感染症ガイドライン","https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections"],["IDSA 成人市中肺炎 Clinical Pathway","https://www.idsociety.org/globalassets/idsa/practice-guidelines/community-acquired-pneumonia-in-adults/cap-clinical-pathway-overview.pdf"]);
 
 
 
 
 
 
-drugProfiles["トミロン"].sources.push(["厚生労働省 抗微生物薬適正使用の手引き 第4版（歯科領域）","https://www.mhlw.go.jp/content/10906000/001506330.pdf"]);
 
 
 
-drugProfiles["ダラシン"].sources.push(["IDSA 2014 皮膚軟部組織感染症ガイドライン","https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"]);
+
+
+
+
+
+
+
+
+
+
+
 // New drug monographs: isolated additions; existing monograph text is unchanged.
 Object.assign(drugProfiles,{"ホスミシン":{"sub":"ホスホマイシンカルシウム（FOM）｜ホスホン酸系抗菌薬・経口製剤","summary":"細胞壁合成の初期段階を阻害する抗菌薬。尿路感染症などで使われるが、国内のホスホマイシンカルシウム内服製剤と海外のホスホマイシントロメタモール3g単回製剤は、製剤・用法・臨床エビデンスを同一視しない。","clinicalVerdict":["**尿路感染症で検討されるが、国内製剤を海外の単回投与レジメンに読み替えない。**","菌種・感受性、感染部位、腎機能を確認する。腎盂腎炎や菌血症を疑う病態で、経口ホスミシンを安易に単剤選択しない。"],"spectrum":"【主な標的】感受性のある大腸菌などの尿路由来グラム陰性菌。一部のグラム陽性菌にも活性がある。\n【限界】菌種・耐性機序で活性は変わる。緑膿菌やESBL産生菌を含め、感受性を確認せず一律に有効とは扱わない。","use":"【単純性膀胱炎】国内での使用実態と海外ガイドラインの単回投与製剤を区別して評価する。\n【耐性菌】ESBL産生大腸菌などへの活性が報告される場合もあるが、菌種・薬剤感受性・製剤差を確認する。\n【重症尿路感染症】腎盂腎炎、発熱、菌血症が疑われる場合は組織移行・全身曝露を考慮し、単純性膀胱炎と同じ扱いにしない。","avoid":"海外のホスホマイシントロメタモール3g単回投与の推奨を、国内ホスホマイシンカルシウム製剤にそのまま適用しない。","caution":"消化器症状、過敏症、腎機能などを確認。国内の適応・用法用量は剤形ごとの最新添付文書を確認する。","pediatric":"小児への適応・用量は製剤別添付文書を確認する。","pregnancy":"妊娠中の投与は国内添付文書と個別の利益・危険性を確認する。","lactation":"授乳中の投与は国内添付文書と児の状態を確認する。","sources":[["PMDA 医療用医薬品情報検索（製剤別添付文書を確認）","https://www.pmda.go.jp/PmdaSearch/iyakuSearch/"],["日本感染症学会 ガイドライン・提言","https://www.kansensho.or.jp/modules/guidelines/"]]},"ファロム":{"sub":"ファロペネムナトリウム水和物（FRPM）｜ペネム系抗菌薬・経口製剤","summary":"経口ペネム系βラクタム抗菌薬。レンサ球菌や一部の嫌気性菌などに活性があり、呼吸器・皮膚軟部組織・尿路感染症などで使用される。広域薬のため適応を見極める。","clinicalVerdict":["**経口ペネム系の選択肢。ただし、軽症感染症に一律の第一選択とはしない。**","原因菌、感染部位、重症度、過去の抗菌薬歴、狭域薬の使用可能性を検討する。ESBL産生菌への活性は菌種・感受性に依存する。"],"spectrum":"【期待できる範囲】感受性のあるレンサ球菌、MSSA、一部の腸内細菌目、口腔内嫌気性菌など。\n【不得意・注意】MRSA、緑膿菌、非定型病原体への治療薬とはしない。ESBL産生菌も感受性確認が必要。","use":"【皮膚軟部組織感染症】原因菌や膿瘍の有無を評価し、必要なら切開排膿を優先。非膿性蜂窩織炎ではより狭域のβラクタムで足りるか検討する。\n【呼吸器・耳鼻科感染症】標的菌と第一選択薬の適否を検討し、漫然と広域化しない。\n【尿路感染症】培養・感受性を踏まえて選択する。発熱性・複雑性では重症度を評価する。","avoid":"MRSAや緑膿菌を疑う場合、またはドレナージが必要な膿瘍の抗菌薬単独治療には適さない。","caution":"βラクタム系過敏症、消化器症状、抗菌薬関連下痢・C. difficile感染症、腎機能を確認。剤形・適応・用量は最新添付文書を参照する。","pediatric":"小児では小児用製剤の適応・用量を個別に確認する。","pregnancy":"妊娠中は添付文書に基づき必要性を評価する。","lactation":"授乳中は添付文書と児の状態を確認する。","sources":[["PMDA 医療用医薬品情報検索（製剤別添付文書を確認）","https://www.pmda.go.jp/PmdaSearch/iyakuSearch/"],["日本感染症学会 ガイドライン・提言","https://www.kansensho.or.jp/modules/guidelines/"]]},"フラジール":{"sub":"メトロニダゾール（MNZ）｜ニトロイミダゾール系・抗嫌気性菌／抗原虫薬","summary":"嫌気性菌や一部の原虫に活性を持つ薬剤。通常の好気性菌による皮膚感染症・尿路感染症を単剤で広くカバーする薬ではない。","clinicalVerdict":["**嫌気性菌・原虫を標的に使う薬。好気性菌のカバーが必要なら別途評価する。**","腹腔内感染症などの混合感染では、想定する好気性グラム陰性菌へのカバーが別に必要になることがある。感染部位・適応・併用薬を確認する。"],"spectrum":"【得意】Bacteroides fragilis群などの感受性嫌気性菌、一部の嫌気性グラム陽性菌、Trichomonas vaginalisなどの原虫。\n【不得意】大腸菌、肺炎球菌、黄色ブドウ球菌、緑膿菌などの好気性菌には通常有効でない。","use":"【嫌気性菌感染症】腹腔内・骨盤内などで嫌気性菌が関与する場合に検討。混合感染では好気性菌のカバーも評価する。\n【原虫感染症】トリコモナス症など、国内承認適応と治療指針を確認する。\n【C. difficile感染症】現在の治療選択は重症度と最新ガイドラインを優先し、メトロニダゾールを一律の第一選択としない。","avoid":"好気性菌が主因の膀胱炎、典型的な非膿性蜂窩織炎などに単剤で使用しない。","caution":"末梢神経障害などの神経毒性、肝機能、相互作用（ワルファリン等）、アルコール摂取に関する添付文書上の注意を確認。長期投与では特に有害事象に注意。","pediatric":"小児は適応・用量・剤形を個別に確認する。","pregnancy":"妊娠週数・適応により扱いが異なるため、国内添付文書を確認する。","lactation":"授乳への対応は用量・投与期間と国内添付文書を確認する。","sources":[["PMDA 医療用医薬品情報検索（製剤別添付文書を確認）","https://www.pmda.go.jp/PmdaSearch/iyakuSearch/"],["日本感染症学会 ガイドライン・提言","https://www.kansensho.or.jp/modules/guidelines/"]]}});
 
@@ -76,42 +76,19 @@ const cefiximeGonorrhea="【開発当初】1987年発売の世界初の経口第
 
 
 
-drugProfiles['ダラシン'].sources.push(['日本小児科学会 マイコプラズマ肺炎の診断と治療（2025年改訂）','https://www.jpeds.or.jp/uploads/files/20250422_maikopurazuma.pdf']);
-drugProfiles['ビブラマイシン'].sources.push(['日本小児科学会 マイコプラズマ肺炎の診断と治療（2025年改訂）','https://www.jpeds.or.jp/uploads/files/20250422_maikopurazuma.pdf'],['国内：異型肺炎の治療・DOXY 100mg×2回 7～10日','https://www.jpca-infection.com/news-detail.php?nid=84']);
-diseasePages.mycoplasma.sections.push(['⑤ 国内小児指針：DOXY・MINO・TFLXと年齢別の注意','・日本小児科学会2025年改訂：マクロライド耐性肺炎マイコプラズマに有効性が期待でき、小児用製剤があるのはトスフロキサシン細粒小児用とミノサイクリン。\n・ドキシサイクリンは短期使用で歯牙着色の影響が少ないとの報告がある一方、前方視的検討はなく小児安全性は確立していないとされる。小児用製剤がないため原則8歳以上。\n・テトラサイクリン系には一過性骨発育不全、歯牙着色、エナメル質形成不全等の注意があり、8歳未満は他剤が使用できない・無効の場合に限り検討。\n・トスフロキサシン細粒小児用の適応は肺炎であり、マイコプラズマ気管支炎への安易な使用は避ける。耐性化にも注意。\n・出典：日本小児科学会『小児のマイコプラズマ肺炎の診断と治療に関する考え方』（2025年改訂）。'],['⑥ クリンダマイシンはマクロライド耐性マイコプラズマの代替にならない','・ミノサイクリン（テトラサイクリン系）：マクロライド耐性肺炎マイコプラズマに有効性が期待できる治療候補。\n・クリンダマイシン（リンコマイシン系）：肺炎マイコプラズマ感染症に有効との十分な臨床エビデンスがなく、国内外で推奨されない。\n・マクロライド耐性肺炎マイコプラズマはクリンダマイシンにも高度耐性を示すため、耐性例には使用しない。\n・同じ50Sリボソームに作用するマクロライド系・リンコマイシン系でも、マクロライド耐性株の代替にはならない。\n・出典：日本小児科学会2025年改訂。'],['⑦ 国内のドキシサイクリン用量：成人向け実務資料','・日本プライマリ・ケア連合学会の感染症情報サイト『異型肺炎』（2024年）：マイコプラズマ肺炎にドキシサイクリン100mg/回、1日2回、7～10日間を紹介。\n・国内添付文書の成人通常維持量100mg/日とは異なる疾患別レジメン。\n・小児の体重換算用量を国内小児ガイドラインが明示したものではない。成人と小児の推奨を混同しない。']);
-diseasePages.mycoplasma.sources.push(['日本小児科学会 小児マイコプラズマ肺炎（2025年改訂）','https://www.jpeds.or.jp/uploads/files/20250422_maikopurazuma.pdf'],['国内の異型肺炎：DOXY 100mg×2回 7～10日','https://www.jpca-infection.com/news-detail.php?nid=84']);
+
+
+
+
 
 const doxyEvidenceLinks={acnePrescriptionDays:[],toothStudy:[['Todd 2015（PubMed）','https://pubmed.ncbi.nlm.nih.gov/25794784/'],['Pöyhönen 2017（PubMed）','https://pubmed.ncbi.nlm.nih.gov/29091225/']],rickettsiaPolicy:[['審査情報提供事例 No.376（原文）','https://www.hpdx.or.jp/smph/shinryohoshu/sinsa_jirei/teikyojirei/yakuzai/no600/jirei_376.html']]};
 function doxyEvidenceCards(){const p=drugProfiles['ビブラマイシン'];return [['toothStudy','原著論文・引用エビデンス','8歳未満へのドキシサイクリン短期投与と永久歯着色'],['acnePrescriptionDays','ニキビ治療・処方日数の現場報告（未確認情報）','尋常性ざ瘡：処方日数と地域差の報告'],['rickettsiaPolicy','国内公的資料・保険審査上の取扱い','小児リケッチア感染症：事例No.376']].map(([key,kind,title])=>'<details class="item" style="border-left:4px solid #4b7890;background:rgba(75,120,144,.055);padding:14px;margin:12px 0"><summary style="cursor:pointer;list-style:revert"><span class="small" style="font-weight:700">'+escape(kind)+'</span><span class="small" style="margin-left:8px;color:#4b7890">【タップで展開】</span><div style="font-weight:700;margin-top:5px">'+escape(title)+'</div></summary><div style="padding-top:8px"><p style="white-space:pre-line">'+escape(p[key]||'')+'</p><p class="small">'+doxyEvidenceLinks[key].map(([name,url])=>'<a href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">['+escape(name)+']</a>').join('　')+'</p></div></details>').join('')}
 function doxyUseSections(value){const raw=String(value||'');const parts=[...raw.matchAll(/【([^】]+)】/g)];if(!parts.length)return '<p style="white-space:pre-line">'+evidenceLinked(raw)+'</p>';let html='';if(parts[0].index>0)html+='<p style="white-space:pre-line">'+evidenceLinked(raw.slice(0,parts[0].index))+'</p>';parts.forEach((m,i)=>{const body=raw.slice(m.index+m[0].length,i+1<parts.length?parts[i+1].index:raw.length).trim();const heading=m[1];const isMyco=/マイコプラズマ|非定型肺炎/.test(heading);const content='<p style="white-space:pre-line;margin:6px 0 0">'+evidenceLinked(body)+'</p>'+((heading.includes('Mycoplasma genitalium')||heading.includes('難治性・再発性非淋菌性尿道炎'))?'<p><button type="button" id="jumpGenitalium">【グレースビットの欄参照】</button></p>':'');html+='<details style="margin:10px 0;padding:0;width:100%;box-sizing:border-box"><summary style="cursor:pointer"><strong>'+escape(isMyco?'マイコプラズマ肺炎（非定型肺炎）':heading)+'</strong> <span class="small">【詳しくはここをタップ】</span></summary>'+content+'</details>'});return html}
 function renderDrugDetail(name){document.querySelectorAll('.drugPick').forEach(b=>b.classList.toggle('active',b.dataset.drug===name));const p=drugProfiles[name],el=$('#drugDetail');if(!p){el.innerHTML='<div class="card"><h2>'+escape(name)+'</h2><p>各論は準備中。確認済みの内容から追加します。</p></div>';return}const sections=[['一言でいうと',p.summary],...(name==='セフスパン'?[['開発の背景と他剤との比較',p.comparison],['淋菌：WHO 2016→2024年改訂と咽頭感染',cefiximeGonorrhea]]:[]),...(name==='セフゾン'?[['発売当初の売り：グラム陽性菌への抗菌力',cefdinirHistory]]:[]),...(name!=='セフゾン'&&name!=='メイアクト'&&p.gasGuideline?[['溶連菌性咽頭炎：2017年版から2022年版への変更',p.gasGuideline]]:[]),['スペクトル・想定菌',p.spectrum],['使いどころ',p.use],...(name!=='ケフレックス'&&name!=='メイアクト'&&p.pneumoniaGuideline?[['成人肺炎ガイドライン2024での位置づけ',p.pneumoniaGuideline]]:[]),...(p.genitaliumNote?[['Mycoplasma genitalium（マイコプラズマ・ジェニタリウム）について',p.genitaliumNote]]:[]),...(p.skinUse?[['蜂窩織炎・皮膚膿瘍での使い方',p.skinUse]]:[]),...(p.dentalRationale?[['歯科で使われる理由と現在の位置づけ',p.dentalRationale]]:[]),...(p.nasalUse?[['鼻・副鼻腔：標的菌・第一選択・代替薬',p.nasalUse]]:[]),...(p.respiratoryUse?[['呼吸器：疾患別の標的菌・推奨順位・代替薬',p.respiratoryUse]]:[]),...(name!=='ビブラマイシン'&&p.clinicalUse?[['臨床での使いどころ：病態別一覧',p.clinicalUse]]:[]),...(p.guidelineSummary?[['ガイドライン別：推奨内容と臨床解釈',p.guidelineSummary]]:[]),['選びにくい場面',p.avoid],...(p.stewardship?[['適正使用上のデメリット：広域化・CDI',p.stewardship]]:[]),...(name!=='メイアクト'&&p.otitisSummary?[['小児急性中耳炎：第一選択から再評価まで',p.otitisSummary]]:[]),...(p.blnar?[['メイアクトの強み：BLNARと難治性中耳炎',p.blnar]]:[]),...(p.formulationSafety?[['ヒヤリハット：製剤・塩・エステル・力価の違い',p.formulationSafety]]:[]),['PK/PD・安全性・相互作用',p.caution],['小児',p.pediatric||'【未監査】小児の承認適応・年齢制限・用量・特有の副作用を確認中。未記載は使用可能を意味しません。'],['妊婦',p.pregnancy||'【未監査】妊娠週数・適応・代替薬を含め評価中。添付文書9.5「妊婦」を確認してください。'],['授乳',p.lactation||'【未監査】乳汁移行・乳児への影響・授乳継続の可否を評価中。添付文書9.6「授乳婦」と授乳中の薬剤情報を確認してください。'],...(p.mycoplasmaNote?[['マイコプラズマ肺炎：国内資料に基づく位置づけ',p.mycoplasmaNote]]:[]),...(p.stTrial?[['非膿性蜂窩織炎にバクタを追加する意味は？',p.stTrial]]:[]),...(p.comparison&&name!=='セフスパン'?[[name==='ケフラール'?'ケフレックスとの比較':name==='フロモックス'?'経口セフェム3剤の比較':name==='バナン'?'膀胱炎での経口セフェム比較':'ケフラールとの比較',p.comparison]]:[])];el.innerHTML='<div class="card"><h2>'+escape(drugDisplayNames[name]||name)+'</h2><p class="small">'+escape(p.sub)+'</p><span class="tag">'+(p.sources?'個別根拠リンク付き・学習用':'学習用・一次資料の個別照合前')+'</span>'+'<div class="clinicalTop"><div class="clinicalTopLabel">臨床での結論</div><div class="clinicalTopTitle">'+formatClinicalText(p.clinicalVerdict?p.clinicalVerdict[0]:(p.summary||'').split('。')[0])+'</div><p>'+formatClinicalText(p.clinicalVerdict?p.clinicalVerdict[1]:(p.use||p.summary||'').split('。')[0]+'。')+'</p></div>'+(name==='ビブラマイシン'?doxyEvidenceCards():'')+'<div class="drugSections">'+sections.map(([h,t])=>(h.startsWith('Mycoplasma genitalium（')||['小児','妊婦','授乳'].includes(h))?'<details class="drugSection"><summary style="cursor:pointer;font-weight:700;padding:8px 0">'+escape(h)+'（タップして展開）</summary><p style="white-space:pre-line">'+evidenceLinked(t)+'</p></details>':'<section class="drugSection"><h3>'+escape(h)+'</h3>'+((name==='ビブラマイシン'||name==='ミノサイクリン')&&h==='使いどころ'?doxyUseSections(t):'<p style="white-space:pre-line">'+evidenceLinked(t)+'</p>')+'</section>').join('')+'</div>'+'<details class="drugSources"><summary><span class="sourceToggleTitle">📚 出典・検証先</span><span class="sourceToggleAction"><span class="sourceToggleClosed">リンクを見る</span><span class="sourceToggleOpened">閉じる</span><span class="sourceToggleChevron" aria-hidden="true">⌄</span></span></summary>'+(p.sources?'<p class="small">この薬剤の個別根拠（国内添付文書・公的資料・ガイドライン）：</p>'+p.sources.map(([label,url])=>'<p><a class="sourceLink" href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">'+escape(label)+' <span aria-hidden="true">↗</span></a></p>').join(''):'')+'<p class="small">前に共有されたSanfordの2020年スペクトル表をそのまま転記したものではありません。個別根拠リンクのない薬剤は、原文・版・国内承認の追加照合が必要です。</p></details><div id="drugNotes"></div><button id="memoFromDrug">この薬についてメモする</button></div>';if(name==='ミノサイクリン'){const jump=$('#jumpGenitalium');if(jump)jump.onclick=()=>{renderDrugDetail('グレースビット');const section=[...document.querySelectorAll('#drugDetail details.drugSection')].find(x=>x.querySelector('summary')?.textContent.includes('Mycoplasma genitalium'));const outer=document.querySelector('#drugDetail details.drugEvidence');if(outer)outer.open=true;if(section)section.open=true;requestAnimationFrame(()=>{(section||document.getElementById('drugDetail')).scrollIntoView({behavior:'smooth',block:'start'})})}}const verdictEdit=$('#editClinicalVerdict');if(verdictEdit)verdictEdit.onclick=()=>{const tab=document.querySelector('.tabs button[data-tab="edit"]');if(tab)tab.click();$('#editKind').value='drugs';editTargets();$('#editTarget').value=name;editReset();$('#editLoad').click();$('#editFields').scrollIntoView({behavior:'smooth',block:'start'});};linkedNotes('drug:'+name,'drugNotes');$('#memoFromDrug').onclick=()=>startLinked('drug:'+name,name)}
 function splitCellulitisDrugPoints(points){if(!Array.isArray(points))return points;return points.flatMap(p=>{if(!Array.isArray(p)||!/バクタ.*ビブラマイシン|ビブラマイシン.*バクタ/.test(p[0]||''))return [p];const s=String(p[1]||''),tag='ドキシサイクリン（ビブラマイシン）',i=s.indexOf(tag);if(i<0)return [['バクタ（ST合剤）',s,p[2]],['ビブラマイシン（ドキシサイクリン）','MRSAを疑う膿性皮膚感染症では経口候補。ただし非膿性蜂窩織炎でのレンサ球菌カバーは不確実。',p[2]]];return [['バクタ（ST合剤）',s.slice(0,i).replace(/^ST合剤:バクタ\\s*/, '').trim(),p[2]],['ビブラマイシン（ドキシサイクリン）',s.slice(i+tag.length).trim(),p[2]]]})}
-diseasePages.cellulitis.overview="**最初に、非膿性蜂窩織炎と膿性蜂窩織炎に分類することが重要。**\n\n【膿瘍の評価】膿瘍・液体貯留が疑われる場合は、超音波検査などで確認する。必要に応じてCT・MRIも検討する。典型的な軽症非膿性例では画像検査を一律に行う必要はない（CQ6）。\n\n【非膿性蜂窩織炎】SIRSなどの全身所見を踏まえて重症度を評価し、通常は切開排膿を要さず、抗菌薬による保存的治療を基本とする。\n\n【膿性蜂窩織炎】膿瘍を認める場合は**切開排膿が治療の基本**。ガイドラインCQ8では切開排膿に抗菌薬を併用することが有効である可能性が示されている。抗菌薬追加の必要性は重症度や全身症状などを踏まえて判断する。\n\n【MRSAへの対応】重症例や膿性例ではMRSAの関与を考慮し、リスク・重症度に応じて早期から抗MRSA薬を検討する。**全例に抗MRSA薬を投与するという意味ではない。**";
+
 // 尋常性痤瘡：日本皮膚科学会「尋常性痤瘡・酒皶治療ガイドライン2023」表1（CQ1–11, 面皰・維持期のCQ）に基づく。
-diseasePages.acne={
- title:'尋常性痤瘡（ニキビ）',
- scope:'炎症性皮疹（丘疹・膿疱）、面皰（白ニキビ・黒ニキビ）、炎症軽快後の維持期を分けて評価。酒皶・毛包炎などは鑑別する。',
- pathogens:'Cutibacterium acnes は炎症に関与するが、面皰形成には毛包の角化異常なども関与する。抗菌薬のみで全病態を治療しない。',
- overview:'**病態ごとに薬剤を選ぶ。** 急性炎症期の治療は最大3か月を目安に見直し、炎症軽快後は面皰・微小面皰に対する維持療法へ移行する。抗菌薬の長期連用は耐性菌選択のため避ける。\n\n【推奨度】A：強く推奨／A＊：有効性はA相当だが副作用等から推奨度を下げる／B：推奨／C1：選択肢／C2：推奨しない。推奨度は対象病態・併用条件とセットで読む。',
- inflammatory:'**炎症性皮疹（急性炎症期）**\n【外用：A】デュアック（CLDM1％＋BPO3％：中等症〜重症、CQ1）、エピデュオ（アダパレン0.1％＋BPO2.5％：中等症〜重症、CQ2）、アダパレン＋外用抗菌薬（軽症〜重症、CQ3）、ベピオ（BPO2.5％：軽症〜中等症、CQ4）、ディフェリン（アダパレン0.1％：軽症〜重症、CQ5）、ダラシンT（CLDM）・アクアチム（ナジフロキサシン）・ゼビアックス（オゼノキサシン）（CQ6）。\n【併用：A】エピデュオ＋内服抗菌薬（中等症〜最重症、CQ7）、アダパレン＋内服抗菌薬（中等症〜重症、CQ8）。\n【内服：CQ11】ビブラマイシン（ドキシサイクリン）A／ミノマイシン（ミノサイクリン）A＊／ルリッド（ロキシスロマイシン）B／ファロム（ファロペネム）B。クラリスロマイシン・エリスロマイシン等はC1であり、第一候補と同列に扱わない。\n【その他】イブプロフェンピコノール外用 C1（CQ9）。ステロイド外用 C2（CQ10）。\n【注意】外用抗菌薬単剤・配合抗菌薬の漫然使用を避け、BPOやアダパレンなど非抗菌薬を活用する。Aの薬剤同士に必ずしも優劣が証明されたわけではない。',
- comedonal:'**面皰（白ニキビ・黒ニキビ）**\n面皰には毛包角化異常への治療が中心。ディフェリン（アダパレン）、ベピオ（BPO）、エピデュオ（アダパレン＋BPO）を病態・刺激性・適応に応じて検討する。抗菌薬単独は面皰治療の基本としない。\n【面皰の推奨度】ディフェリン（アダパレン）A・CQ18／ベピオ（BPO）A・CQ19／エピデュオ（アダパレン＋BPO）A・CQ20。デュアック（CLDM＋BPO）は炎症性皮疹と混在する面皰にA・CQ21（維持療法には推奨しない）。外用抗菌薬単剤はC2・CQ22（推奨しない）。',
- maintenance:'**維持期（炎症軽快後）**\nアダパレン、BPO、アダパレン＋BPOなど非抗菌薬外用による面皰・微小面皰の管理を中心とする。ダラシンT等の外用抗菌薬や内服抗菌薬を漫然と継続しない。\n【維持期の推奨度】ディフェリン（アダパレン）A・CQ27／ベピオ（BPO）A・CQ28／エピデュオ（アダパレン＋BPO）A・CQ29。抗菌薬を含むデュアックは維持療法として推奨しない（CQ21）。',
- points:[
- ['デュアック（CLDM＋BPO）｜外用 A・CQ1','中等症〜重症の炎症性皮疹に推奨。抗菌薬配合のため維持期に長期連用しない。','guideline'],
- ['エピデュオ（アダパレン＋BPO）｜外用 A・CQ2','中等症〜重症の炎症性皮疹に推奨。刺激症状に注意。','guideline'],
- ['ベピオ（BPO）｜外用 A・CQ4','軽症〜中等症の炎症性皮疹に推奨。耐性菌選択を避けたい場面でも重要。','guideline'],
- ['ディフェリン（アダパレン）｜外用 A・CQ5','軽症〜重症の炎症性皮疹に推奨。面皰・維持期でも位置づけを確認する。','guideline'],
- ['ダラシンT（CLDM）｜外用 A・CQ6','炎症性皮疹への外用抗菌薬。長期連用を避ける。','guideline'],
- ['アクアチム（ナジフロキサシン）｜外用 A・CQ6','炎症性皮疹への外用抗菌薬。長期連用を避ける。','guideline'],
- ['ゼビアックス（オゼノキサシン）｜外用 A・CQ6','炎症性皮疹への外用抗菌薬。長期連用を避ける。','guideline'],
- ['ビブラマイシン（ドキシサイクリン）｜内服 A・CQ11','炎症性皮疹への内服抗菌薬。適応・禁忌・年齢・妊娠可能性などを別途確認する。','guideline'],
- ['ミノマイシン（ミノサイクリン）｜内服 A＊・CQ11','有効性はA相当だが、副作用等を考慮したA＊。ドキシサイクリンのAと区別する。','guideline'],
- ['ルリッド（ロキシスロマイシン）｜内服 B・CQ11','炎症性皮疹への内服抗菌薬。A評価の薬剤と同列にしない。','guideline'],
- ['ファロム（ファロペネム）｜内服 B・CQ11','ガイドライン推奨度B。ただし抗菌薬適正使用の観点から安易な広域選択を避ける。','guideline']
- ],
- questions:['炎症性皮疹と面皰で治療標的はどう異なる？','内服抗菌薬をいつ終了し維持療法へ移る？','ミノサイクリンのA＊とドキシサイクリンのAの違いは？'],
- sources:[['日本皮膚科学会 尋常性痤瘡・酒皶治療ガイドライン2023（表1・CQ原文）','https://www.dermatol.or.jp/dermatol/wp-content/uploads/xoops/files/guideline/zasou2023.pdf']]
-};
+
 function pneumoniaOverview(){if($('#diseaseSelect').value!=='pneumonia')return '';const d=diseasePages.pneumonia;return '<div class="item"><h3>疾患の概要（成人肺炎診療ガイドライン2024 p.36に基づく）</h3><p style="white-space:pre-wrap">'+formatClinicalText(d.overview||'')+'</p><p class="small">出典：日本呼吸器学会『成人肺炎診療ガイドライン2024』p.36「一般病棟入院患者（中等症〜重症肺炎）での抗菌薬の選択」 <a href="https://www.jrs.or.jp/publication/file/adult_pneumonia_2024v5.pdf#page=36" target="_blank" rel="noopener noreferrer">p.36の原文を開く</a></p><p class="small">照合メモ：原文は入院患者の静注薬に関する記載。薬剤名「パズフロキサシン」を正記し、本文は読みやすく要約したものです。</p></div>'}
 function acneOverview(){if($('#diseaseSelect').value!=='acne')return '';const d=diseasePages.acne;return '<div class="item"><h3>疾患の概要・推奨度の読み方</h3><p>'+formatClinicalText(d.overview||'')+'</p></div>'+[['inflammatory','炎症性皮疹'],['comedonal','面皰'],['maintenance','維持期']].map(([k,t])=>'<div class="item"><h3>'+escape(t)+'</h3><p>'+formatClinicalText(d[k]||'')+'</p></div>').join('')}
 function cellulitisOverview(){if($('#diseaseSelect').value!=='cellulitis')return '';return '<div class="item"><h3>疾患の概要</h3><p>'+formatClinicalText(diseasePages.cellulitis.overview||'')+'</p><p class="small">出典：日本創傷外科学会「第Ⅱ編 感染創診療ガイドライン」第2章 蜂窩織炎 CQ6・CQ8（推奨 2C） <a href="https://www.jsswc.or.jp/volume.html" target="_blank" rel="noopener noreferrer">原文を開く</a></p></div>'}
@@ -168,8 +145,8 @@ if('serviceWorker' in navigator && location.protocol==='https:'){navigator.servi
 
 // Published overlays are separate from the offline fallback content.
 let publishedOverlays={diseases:{},drugs:{}};
-async function fetchPublishedOverlays(){try{const r=await fetch('./content/overrides.json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(!d||typeof d.diseases!=='object'||typeof d.drugs!=='object'||!d.diseases.cystitis)throw Error('invalid canonical content');publishedOverlays=d;Object.assign(diseasePages,d.diseases);Object.assign(drugProfiles,d.drugs);publishedDataReady=true;const info=document.getElementById('publishedCystitisStatus');if(info)info.textContent='膀胱炎の公開文章：最新版を取得済み';if($('#diseaseSelect'))renderDisease();if($('#drugSearch'))renderDrugList();editTargets();if(activeEditDrug&&drugProfiles[activeEditDrug])renderDrugDetail(activeEditDrug)}catch(e){publishedDataReady=false;const err=$('#runtimeError');if(err){err.hidden=false;err.textContent='公開文章を読み込めません。通信を確認して「最新版を確認・更新」を押してください。'}if($('#diseaseSelect'))renderDisease();if($('#drugSearch'))renderDrugList();console.warn('Canonical clinical data unavailable',e)}}
 let activeEditDrug='';
+async function fetchPublishedOverlays(){try{const r=await fetch('./content/overrides.json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(!d||typeof d.diseases!=='object'||typeof d.drugs!=='object'||!d.diseases.cystitis)throw Error('invalid canonical content');publishedOverlays=d;Object.assign(diseasePages,d.diseases);Object.assign(drugProfiles,d.drugs);publishedDataReady=true;const info=document.getElementById('publishedCystitisStatus');if(info)info.textContent='膀胱炎の公開文章：最新版を取得済み';if($('#diseaseSelect'))renderDisease();if($('#drugSearch'))renderDrugList();editTargets();if(activeEditDrug&&drugProfiles[activeEditDrug])renderDrugDetail(activeEditDrug)}catch(e){publishedDataReady=false;const err=$('#runtimeError');if(err){err.hidden=false;err.textContent='公開文章を読み込めません。通信を確認して「最新版を確認・更新」を押してください。'}if($('#diseaseSelect'))renderDisease();if($('#drugSearch'))renderDrugList();console.warn('Canonical clinical data unavailable',e)}}
 fetchPublishedOverlays();
 const _oldRenderDrugDetail=renderDrugDetail;
 renderDrugDetail=function(name){activeEditDrug=name;return _oldRenderDrugDetail(name)};

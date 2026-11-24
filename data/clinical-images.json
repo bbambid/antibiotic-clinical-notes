@@ -336,6 +336,18 @@
       "source": "サンフォード：副鼻腔炎",
       "page": "",
       "url": "https://lsp-sanford.jp/sguide/body/T048000.php?utm_source=chatgpt.com"
+    },
+    {
+      "id": "mwug1tg8-7k7p7e",
+      "path": "assets/clinical-images/mwug1tg8-7k7p7e.jpg",
+      "target": "drug:ダラシン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "ガイドライン上のクリンダマイシン位置づけ",
+      "source": "肺炎診療ガイドライン2024",
+      "page": "38",
+      "url": "https://www.jrs.or.jp/publication/file/adult_pneumonia_2024v5.pdf#page=64"
     }
   ]
 }

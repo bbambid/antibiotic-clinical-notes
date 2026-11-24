@@ -264,6 +264,18 @@
       "source": "成人肺炎診療ガイドライン2024",
       "page": "35",
       "url": "https://www.jrs.or.jp/publication/file/adult_pneumonia_2024v5.pdf#page=60"
+    },
+    {
+      "id": "mwu7uyax-huj8c3",
+      "path": "assets/clinical-images/mwu7uyax-huj8c3.jpg",
+      "target": "drug:メイアクト",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "膀胱炎での推奨度:閉経前で第1選択",
+      "source": "診療ガイドライン婦⼈科外来編2023年第3回コンセンサスミーティング⽤資料",
+      "page": "9",
+      "url": "https://www.jaog.or.jp/wp/wp-content/uploads/2022/08/20220816.pdf#page=9)"
     }
   ]
 }

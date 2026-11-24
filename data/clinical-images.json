@@ -408,6 +408,18 @@
       "source": "小児のマイコプラズマ肺炎の診断と治療に関する考え方",
       "page": "4",
       "url": "https://www.jpeds.or.jp/uploads/files/20250422_maikopurazuma.pdf"
+    },
+    {
+      "id": "mwujbqg0-7j73y8",
+      "path": "assets/clinical-images/mwujbqg0-7j73y8.jpg",
+      "target": "disease:mycoplasma",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "マイコプラズマ肺炎にドキシサイクリンと記載のエビデンス",
+      "source": "プライマリケアのための感染症情報サイト",
+      "page": "",
+      "url": "https://www.jpca-infection.com/news-detail.php?nid=84"
     }
   ]
 }

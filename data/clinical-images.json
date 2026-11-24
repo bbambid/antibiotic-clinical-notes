@@ -240,6 +240,18 @@
       "source": "小児急性中耳炎ガイドライン2024",
       "page": "57",
       "url": "https://www.otology.gr.jp/common/pdf/guideline_otitis2024.pdf#page=67"
+    },
+    {
+      "id": "mwu6ouhl-fvarnv",
+      "path": "assets/clinical-images/mwu6ouhl-fvarnv.jpg",
+      "target": "drug:メイアクト",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "セフェム系を選ぶならセフジトレンが優先",
+      "source": "急性鼻副鼻腔炎診療ガイドラインの発刊に際して",
+      "page": "59",
+      "url": "https://www.jstage.jst.go.jp/article/jjrhi/53/2/53_103/_pdf/-char/en#page=33"
     }
   ]
 }

@@ -103,16 +103,7 @@
           "同ガイドライン p.35 図4（市中肺炎の初期治療）",
           "https://www.jrs.or.jp/publication/file/adult_pneumonia_2024v5.pdf#page=35"
         ]
-      ],
-      "point_0_name": "細菌性肺炎",
-      "point_0_description": "重症度・検出菌・薬剤感受性を評価してβラクタム系などを選択。インフルエンザ菌BLNARを考慮する外来症例ではセフジトレン高用量が図4の候補。\n\nまた**ガイドラインには無い**が、[[blue:**βラクタム系が使えない軽症のインフルエンザ菌性肺炎**]]では、**アジスロマイシン**または**ドキシサイクリン（ビブラマイシン）**を経口投与する。中等症以上では**セフトリアキソン**を静脈注射する。[[blue:**中等症以上のβラクタム系が使えない**]]ときは、**ST合剤（バクタ）**を経口投与する\n([プライマリケアのサイト](https://www.jpca-infection.com/news-detail.php?nid=82))",
-      "point_0_type": "guideline",
-      "point_1_name": "肺炎マイコプラズマ",
-      "point_1_description": "一般病棟入院患者で疑う場合、ミノサイクリンまたはアジスロマイシンの点滴静注を考慮（p.36）。",
-      "point_1_type": "guideline",
-      "point_2_name": "レジオネラ属",
-      "point_2_description": "一般病棟入院患者で疑う場合、レボフロキサシン、ラスクフロキサシン、パズフロキサシンの点滴静注を考慮（p.36）。",
-      "point_2_type": "guideline"
+      ]
     },
     "otitis": {
       "sources": [
@@ -128,15 +119,6 @@
       "title": "小児急性中耳炎",
       "scope": "主に小児の急性中耳炎。年齢、耳痛・発熱、鼓膜所見、重症度、反復・遷延、直近の抗菌薬歴で評価する。成人中耳炎や滲出性中耳炎とは区別する。",
       "pathogens": "[[size:18:**最もターゲットとして意識するべきは[[red:肺炎球菌]]。**]]\nその他**[[red:インフルエンザ菌]]**（[[red:**BLNAR**]]を含む）、モラクセラ・カタラーリス。\nウイルス感染も考慮",
-      "point_0_name": "アモキシシリン（AMPC）",
-      "point_0_description": "[[red:**肺炎球菌**]]をターゲットにした[[red:**第一選択**]]。まず高用量で投与し、反応が悪い時はβラクタマーゼ産生の**BLPAR**を考慮して**クラバモックス・オーグメンチン**も考慮する。",
-      "point_0_type": "guideline",
-      "point_1_name": "オゼックス（TFLX）",
-      "point_1_description": "小児中耳炎に適応のある経口ニューキノロン。高い有効性を持つが**第一選択ではなく、他の経口抗菌薬で効果が期待できない場合だけ使うべき**。\n結晶尿・腎障害に注意。",
-      "point_1_type": "guideline",
-      "point_2_name": "セフジトレン",
-      "point_2_description": "インフルエンザ菌の**BLNAR**で、アモキシシリンやクラバモックス・オーグメンチンで失敗した時に考慮する。日本ではセフジトレンを第2選択とした研究もされている。セフカペンもBLNARに活性があるが、**セフジトレンの方がMIC的に有利**。吸収は悪いが増量で組織移行性は良くなる。\nただしピボキシル基による低カルニチン血症にも注意。",
-      "point_2_type": "interpretation",
       "points": [
         [
           "アモキシシリン（AMPC）：第1選択",
@@ -184,33 +166,6 @@
       "title": "毛包炎・せつ・よう（毛嚢炎・癤・癰）",
       "scope": "・毛包炎（浅い毛包の炎症）：毛穴の奥に細菌が入り込み、炎症を起こす\n・ニキビ(ざそう)：皮脂や角質で毛穴が詰まり、アクネ菌が増える\n・せつ（ニキビが深くなった、毛包から深部へ広がる膿瘍）ニキビかと思いきや触ると激痛、ずっと治らない\n・よう（複数の毛包感染が融合した深い病変）を区別する。",
       "pathogens": "主な起炎菌は黄色ブドウ球菌（MSSA、状況によりMRSA）。毛包炎では緑膿菌や非細菌性病態も鑑別する。",
-      "point_0_name": "外用抗菌薬",
-      "point_0_description": "限局した細菌性毛包炎で必要性を判断。ゼビアックスの適応と耐性化リスクを確認。",
-      "point_0_type": "interpretation",
-      "point_1_name": "セファレキシン",
-      "point_1_description": "全身治療が必要でMSSAが主な標的の場合の狭域候補。軽症例へのルーチン内服は避ける。",
-      "point_1_type": "interpretation",
-      "point_2_name": "ミノサイクリン／ドキシサイクリン",
-      "point_2_description": "MRSAを疑う場合などに感受性・適応・安全性を確認。軽症毛包炎の第一選択として一律には扱わない。",
-      "point_2_type": "caution",
-      "point_3_name": "切開排膿",
-      "point_3_description": "大きなせつ・ようでは第一に検討する治療。抗菌薬単独で置き換えない。",
-      "point_3_type": "guideline",
-      "point_4_name": "セファレキシン",
-      "point_4_description": "MSSAを想定し内服が必要な場合の狭域候補。",
-      "point_4_type": "interpretation",
-      "point_5_name": "ミノサイクリン",
-      "point_5_description": "MRSA疑い・確認時の経口候補。",
-      "point_5_type": "interpretation",
-      "point_6_name": "ST合剤／ドキシサイクリン／クリンダマイシン",
-      "point_6_description": "MRSAを想定する場合の代替候補。耐性・相互作用・レンサ球菌カバーに注意。",
-      "point_6_type": "interpretation",
-      "point_7_name": "セフジニル／ファロペネム",
-      "point_7_description": "皮膚感染症への使用実績はあるが、MSSA主体の単純例で広域薬を優先する根拠とはならない。",
-      "point_7_type": "caution",
-      "point_8_name": "ゼビアックス外用",
-      "point_8_description": "浅い細菌性毛包炎では検討できるが、深いせつ・ようの膿瘍を外用単独で治療するものではない。",
-      "point_8_type": "caution",
       "commonDrugs": [
         [
           "セファレキシン",

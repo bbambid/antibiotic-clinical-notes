@@ -169,8 +169,8 @@ if('serviceWorker' in navigator && location.protocol==='https:'){navigator.servi
 // Published overlays are separate from the offline fallback content.
 let publishedOverlays={diseases:{},drugs:{}};
 async function fetchPublishedOverlays(){try{const r=await fetch('./content/overrides.json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(!d||typeof d.diseases!=='object'||typeof d.drugs!=='object'||!d.diseases.cystitis)throw Error('invalid canonical content');publishedOverlays=d;Object.assign(diseasePages,d.diseases);Object.assign(drugProfiles,d.drugs);publishedDataReady=true;const info=document.getElementById('publishedCystitisStatus');if(info)info.textContent='膀胱炎の公開文章：最新版を取得済み';if($('#diseaseSelect'))renderDisease();if($('#drugSearch'))renderDrugList();editTargets();if(activeEditDrug&&drugProfiles[activeEditDrug])renderDrugDetail(activeEditDrug)}catch(e){publishedDataReady=false;const err=$('#runtimeError');if(err){err.hidden=false;err.textContent='公開文章を読み込めません。通信を確認して「最新版を確認・更新」を押してください。'}if($('#diseaseSelect'))renderDisease();if($('#drugSearch'))renderDrugList();console.warn('Canonical clinical data unavailable',e)}}
-fetchPublishedOverlays();
 let activeEditDrug='';
+fetchPublishedOverlays();
 const _oldRenderDrugDetail=renderDrugDetail;
 renderDrugDetail=function(name){activeEditDrug=name;return _oldRenderDrugDetail(name)};
 fetchPublishedOverlays();

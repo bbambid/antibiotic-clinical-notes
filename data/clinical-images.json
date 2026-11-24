@@ -506,16 +506,16 @@
       "url": "https://www.mhlw.go.jp/content/10900000/001630930.pdf?utm_source=chatgpt.com#page=26"
     },
     {
-      "id": "mwuwwjaz-tsv3bt",
-      "path": "assets/clinical-images/mwuwwjaz-tsv3bt.jpg",
-      "target": "drug:ケフレックス",
+      "id": "mwux5724-9h6pcy",
+      "path": "assets/clinical-images/mwux5724-9h6pcy.jpg",
+      "target": "drug:ダラシン",
       "anchor": "",
       "mode": "fold",
       "size": "full",
-      "caption": "アモキシシリン流通困難の代替薬としてセファレキシン(Access)",
-      "source": "抗微生物薬適正使用の手引き第四版",
-      "page": "26",
-      "url": "https://www.mhlw.go.jp/content/10900000/001630930.pdf?utm_source=chatgpt.com#page=26"
+      "caption": "クリンダマイシン：ペニシリンアレルギーでの代替",
+      "source": "JAID/JSC感染症治療ガイドライン2016―歯性感染症―",
+      "page": "470",
+      "url": "https://www.kansensho.or.jp/uploads/files/guidelines/guideline_JAID-JSC_2016_tooth-infection.pdf#page=4"
     }
   ]
 }

@@ -348,6 +348,18 @@
       "source": "肺炎診療ガイドライン2024",
       "page": "38",
       "url": "https://www.jrs.or.jp/publication/file/adult_pneumonia_2024v5.pdf#page=64"
+    },
+    {
+      "id": "mwugq9yv-30et4f",
+      "path": "assets/clinical-images/mwugq9yv-30et4f.jpg",
+      "target": "drug:ダラシン",
+      "anchor": "",
+      "mode": "inline",
+      "size": "full",
+      "caption": "サンフォード:副鼻腔炎の小児ペニシリンアレルギー(1型)でクリンダマイシン候補",
+      "source": "サンフォード",
+      "page": "",
+      "url": "https://lsp-sanford.jp/sguide/body/T048000.php?utm_source=chatgpt.com"
     }
   ]
 }

@@ -324,6 +324,18 @@
       "source": "サンフォード",
       "page": "",
       "url": "https://lsp-sanford.jp/sguide/body/T048000.php?utm_source=chatgpt.com"
+    },
+    {
+      "id": "mwufkuxj-v4vwdo",
+      "path": "assets/clinical-images/mwufkuxj-v4vwdo.jpg",
+      "target": "drug:ダラシン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "クリンダマイシン:副鼻腔炎、ペニシリン1型アレルギーの代替",
+      "source": "サンフォード：副鼻腔炎",
+      "page": "",
+      "url": "https://lsp-sanford.jp/sguide/body/T048000.php?utm_source=chatgpt.com"
     }
   ]
 }

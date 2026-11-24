@@ -360,6 +360,18 @@
       "source": "サンフォード",
       "page": "",
       "url": "https://lsp-sanford.jp/sguide/body/T048000.php?utm_source=chatgpt.com"
+    },
+    {
+      "id": "mwuh2cgb-falt4s",
+      "path": "assets/clinical-images/mwuh2cgb-falt4s.jpg",
+      "target": "drug:ダラシン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "マクロライド耐性マイコプラズマではクリンダマイシンも高度耐性",
+      "source": "小児のマイコプラズマ肺炎の診断と治療に関する考え方",
+      "page": "4",
+      "url": "https://www.jpeds.or.jp/uploads/files/20250422_maikopurazuma.pdf"
     }
   ]
 }

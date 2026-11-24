@@ -354,7 +354,7 @@
       "path": "assets/clinical-images/mwugq9yv-30et4f.jpg",
       "target": "drug:ダラシン",
       "anchor": "",
-      "mode": "inline",
+      "mode": "fold",
       "size": "full",
       "caption": "サンフォード:副鼻腔炎の小児ペニシリンアレルギー(1型)でクリンダマイシン候補",
       "source": "サンフォード",

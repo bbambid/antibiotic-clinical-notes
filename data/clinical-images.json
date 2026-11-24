@@ -504,6 +504,18 @@
       "source": "抗微生物薬適正使用の手引き第四版 歯科編",
       "page": "26",
       "url": "https://www.mhlw.go.jp/content/10900000/001630930.pdf?utm_source=chatgpt.com#page=26"
+    },
+    {
+      "id": "mwuwwjaz-tsv3bt",
+      "path": "assets/clinical-images/mwuwwjaz-tsv3bt.jpg",
+      "target": "drug:ケフレックス",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "アモキシシリン流通困難の代替薬としてセファレキシン(Access)",
+      "source": "抗微生物薬適正使用の手引き第四版",
+      "page": "26",
+      "url": "https://www.mhlw.go.jp/content/10900000/001630930.pdf?utm_source=chatgpt.com#page=26"
     }
   ]
 }

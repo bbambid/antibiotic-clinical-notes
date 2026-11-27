@@ -564,6 +564,18 @@
       "source": "お薬手帳",
       "page": "",
       "url": ""
+    },
+    {
+      "id": "mwyvwad7-uux03n",
+      "path": "assets/clinical-images/mwyvwad7-uux03n.jpg",
+      "target": "drug:トミロン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "ガイドライン追補版より",
+      "source": "急性鼻副鼻腔炎診療ガイドライン2010追補版",
+      "page": "59",
+      "url": "https://www.jstage.jst.go.jp/article/jjrhi/53/2/53_103/_pdf/-char/en#page=33"
     }
   ]
 }

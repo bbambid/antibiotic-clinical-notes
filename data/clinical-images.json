@@ -624,6 +624,18 @@
       "source": "医学界新聞プラス ［第4回］蜂窩織炎の要点と誤診パターン",
       "page": "",
       "url": "https://www.igaku-shoin.co.jp/paperplus/archive/y2026/baikinya04"
+    },
+    {
+      "id": "mx07nsu4-5z2vo6",
+      "path": "assets/clinical-images/mx07nsu4-5z2vo6.jpg",
+      "target": "drug:ダラシン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "ペニシリンアレルギーの歯性感染症▶︎クリンダマイシン",
+      "source": "医療情報基盤・診療報酬審査支払い機構",
+      "page": "",
+      "url": "https://www.hpdx.or.jp/smph/shinryohoshu/sinsa_jirei/teikyojirei/yakuzai/no600/jirei405.html"
     }
   ]
 }

@@ -636,6 +636,18 @@
       "source": "医療情報基盤・診療報酬審査支払い機構",
       "page": "",
       "url": "https://www.hpdx.or.jp/smph/shinryohoshu/sinsa_jirei/teikyojirei/yakuzai/no600/jirei405.html"
+    },
+    {
+      "id": "mx08up38-oc8dkh",
+      "path": "assets/clinical-images/mx08up38-oc8dkh.jpg",
+      "target": "drug:ダラシン",
+      "anchor": "",
+      "mode": "inline",
+      "size": "full",
+      "caption": "蜂窩織炎でセファレキシン使用できない時はダラシン",
+      "source": "亀田グループサイト",
+      "page": "",
+      "url": "https://medical.kameda.com/general/medical/assets/14.pdf"
     }
   ]
 }

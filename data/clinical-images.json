@@ -600,6 +600,18 @@
       "source": "亀田グループサイト",
       "page": "",
       "url": "https://medical.kameda.com/general/medical/assets/14.pdf"
+    },
+    {
+      "id": "mwzuxj8g-zo9jbg",
+      "path": "assets/clinical-images/mwzuxj8g-zo9jbg.jpg",
+      "target": "disease:cellulitis",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "亀田グループのメモ",
+      "source": "亀田グループサイト",
+      "page": "",
+      "url": "https://medical.kameda.com/general/medical/assets/14.pdf"
     }
   ]
 }

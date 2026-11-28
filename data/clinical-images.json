@@ -720,6 +720,18 @@
       "source": "Twitter",
       "page": "",
       "url": "https://x.com/tomatom01987693/status/1418903569068142604?a=FJ61lKkgpMQoIodXppw&s=46"
+    },
+    {
+      "id": "mx0gp78i-zb3jfu",
+      "path": "assets/clinical-images/mx0gp78i-zb3jfu.jpg",
+      "target": "drug:ルリッド",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "ロキシスロマイシンは皮疹に推奨",
+      "source": "尋常性ざ瘡治療ガイドライン2023",
+      "page": "421",
+      "url": "https://www.dermatol.or.jp/dermatol/wp-content/uploads/xoops/files/guideline/zasou2023.pdf#page=15"
     }
   ]
 }

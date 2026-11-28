@@ -648,6 +648,18 @@
       "source": "亀田グループサイト",
       "page": "",
       "url": "https://medical.kameda.com/general/medical/assets/14.pdf"
+    },
+    {
+      "id": "mx092o9d-i5ph8h",
+      "path": "assets/clinical-images/mx092o9d-i5ph8h.jpg",
+      "target": "drug:ダラシン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "クリンダマイシン:皮膚感染症でもセファレキシンの代替薬",
+      "source": "抗微生物薬適正使用の手引き",
+      "page": "90",
+      "url": "https://www.mhlw.go.jp/content/10900000/001630903.pdf#page=90"
     }
   ]
 }

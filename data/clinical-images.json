@@ -696,6 +696,18 @@
       "source": "亀田総合病院感染症内科",
       "page": "",
       "url": "https://www.kameda.com/pr/infectious_disease/post_74.html"
+    },
+    {
+      "id": "mx0ds62h-b03r8k",
+      "path": "assets/clinical-images/mx0ds62h-b03r8k.jpg",
+      "target": "drug:クラリス",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "百日咳の第一選択：クラリス",
+      "source": "『小児呼吸器感染症診療ガイドライン 2022 百日咳に関する追補版』Ver.1",
+      "page": "6",
+      "url": "https://www.jspid.jp/wp-content/uploads/2025/08/guide_bp_20250820.pdf#page=6"
     }
   ]
 }

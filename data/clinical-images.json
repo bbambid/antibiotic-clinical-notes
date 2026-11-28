@@ -612,6 +612,18 @@
       "source": "亀田グループサイト",
       "page": "",
       "url": "https://medical.kameda.com/general/medical/assets/14.pdf"
+    },
+    {
+      "id": "mwzvgrr8-d2hk9b",
+      "path": "assets/clinical-images/mwzvgrr8-d2hk9b.jpg",
+      "target": "drug:ダラシン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "クリンダマイシンはA群β溶血性レンサ球菌、MSSA、しばしばMRSAもカバーする",
+      "source": "医学界新聞プラス ［第4回］蜂窩織炎の要点と誤診パターン",
+      "page": "",
+      "url": "https://www.igaku-shoin.co.jp/paperplus/archive/y2026/baikinya04"
     }
   ]
 }

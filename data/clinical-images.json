@@ -588,6 +588,18 @@
       "source": "X",
       "page": "",
       "url": "https://x.com/okihihuka/status/1669499362148519936?a=JVtqeXQpltYkMRvWnjk&s=46"
+    },
+    {
+      "id": "mwzuuqvv-umsec0",
+      "path": "assets/clinical-images/mwzuuqvv-umsec0.jpg",
+      "target": "drug:ミノサイクリン",
+      "anchor": "",
+      "mode": "fold",
+      "size": "full",
+      "caption": "亀田グループのメモ",
+      "source": "亀田グループサイト",
+      "page": "",
+      "url": "https://medical.kameda.com/general/medical/assets/14.pdf"
     }
   ]
 }

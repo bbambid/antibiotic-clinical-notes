@@ -642,7 +642,7 @@
       "path": "assets/clinical-images/mx08up38-oc8dkh.jpg",
       "target": "drug:ダラシン",
       "anchor": "",
-      "mode": "inline",
+      "mode": "fold",
       "size": "full",
       "caption": "蜂窩織炎でセファレキシン使用できない時はダラシン",
       "source": "亀田グループサイト",
